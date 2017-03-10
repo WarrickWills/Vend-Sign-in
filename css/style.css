@@ -1,0 +1,127 @@
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {} body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.navbar-inverse {
+    background-color: #404040;
+}
+.countryflag {
+    display: block;
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: url("../images/flag-nz.svg");
+    background-size: 40px 20px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.cheading {
+    text-align: left;
+    outline: 0;
+    font-size: 20px;
+    color: #ffffff;
+    height: 57px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+#new {
+    background: #404040;
+    padding: 50px 40px;
+}
+#loginform {
+    background: #ffffff;
+    padding: 50px 40px;
+}
+#loginform h1 {
+    padding: 0;
+    margin: 0;
+}
+#loginform input {
+    outline: 0;
+    background: #f2f2f2;
+    border: 0;
+    margin: 0 0 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#loginform input[type="password"] {
+    margin-bottom: 20px;
+}
+#loginform button {
+    text-transform: uppercase;
+    background: #4CAF50;
+    color: #fff;
+}
+#loginform button:hover,
+#loginform button:active,
+#loginform button:focus {
+    background: #43A047;
+}
+#loginform .message a {
+    text-decoration: none;
+    color: #1E90FF;
+    font-weight: 600;
+}
+#loginform .heading {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #545252;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 20px;
+}
+#loginform .store {
+    text-decoration: none;
+    color: #A9A9A9;
+    float: right;
+    margin-bottom: 20px;
+}
+.logo img {
+    height: 57px;
+    margin-right: 20px;
+}
+.carousel-caption {
+    float: left;
+}
+#footer {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10px;
+}
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+    #login {
+        padding-top: 100px;
+        max-width: 90%;
+    }
+    .row-eq-height {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .align-bottom {
+        position: relative;
+        top: 100%;
+        transform: translateY(-100%);
+        padding-bottom: 50px;
+    }
+}
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    #login {
+        padding-top: 150px;
+        max-width: 65%;
+    }
+}
